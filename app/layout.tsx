@@ -6,7 +6,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'auto answer - N사 지식 답변 마케팅 자동화 솔루션',
+  title: '오토앤써 - N사 지식 답변 마케팅 자동화 솔루션',
   description: '100% 자동 답변 시스템으로 24시간 마케팅을 자동화하세요. 네이버 지식인에서 AI가 생성한 자연스러운 답변을 자동으로 등록하여 마케팅 효과를 극대화합니다.',
   keywords: [
     'auto answer',
@@ -33,29 +33,29 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://autoanswer.com'),
+  metadataBase: new URL('https://auto-answer.fot.kr'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'auto answer - N사 지식 답변 마케팅 자동화 솔루션',
+    title: '오토앤써 - N사 지식 답변 마케팅 자동화 솔루션',
     description: '100% 자동 답변 시스템으로 24시간 마케팅을 자동화하세요. 네이버 지식인에서 AI가 생성한 자연스러운 답변을 자동으로 등록하여 마케팅 효과를 극대화합니다.',
-    url: 'https://autoanswer.com',
-    siteName: 'auto answer',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'auto answer - N사 지식 답변 마케팅 자동화 솔루션',
-      },
-    ],
+    url: 'https://auto-answer.fot.kr',
+    siteName: '오토앤써',
+          images: [
+        {
+          url: '/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: '오토앤써 - N사 지식 답변 마케팅 자동화 솔루션',
+        },
+      ],
     locale: 'ko_KR',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'auto answer - N사 지식 답변 마케팅 자동화 솔루션',
+    title: '오토앤써 - N사 지식 답변 마케팅 자동화 솔루션',
     description: '100% 자동 답변 시스템으로 24시간 마케팅을 자동화하세요.',
     images: ['/og-image.jpg'],
   },
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'bHWUYxiGngVMBF5WXBDv3Z4E39r24mgKwkOMlB_ILug',
+    google: 'omXjnlK7pQBakbq-sE2d9Gga56UVD3lwqnbm-HE_5Uw',
     other: {
-      'naver-site-verification': 'e3e7b583792b1b01ea790ba5e919ffe610952d4e',
+      'naver-site-verification': '17964337c3d1d6b107a7924120c88c7126c0e732',
       'msvalidate.01': '75C0A176C3DFBC03357C823EA1553838',
     },
   },
@@ -87,9 +87,9 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: 'auto answer',
+    name: '오토앤써',
     description: 'N사 지식 답변 마케팅 자동화 솔루션. 100% 자동 답변 시스템으로 24시간 마케팅을 자동화합니다.',
-    url: 'https://autoanswer.com',
+    url: 'https://auto-answer.fot.kr',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     offers: {
@@ -108,15 +108,15 @@ export default function RootLayout({
     },
     author: {
       '@type': 'Organization',
-      name: 'auto answer',
-      url: 'https://autoanswer.com',
+      name: '오토앤써',
+      url: 'https://auto-answer.fot.kr',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'auto answer',
+      name: '오토앤써',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://autoanswer.com/logo.png',
+        url: 'https://auto-answer.fot.kr/logo.png',
       },
     },
     featureList: [
@@ -148,14 +148,14 @@ export default function RootLayout({
                   c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                   t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "t0nwz0x5fl");
+              })(window, document, "clarity", "script", "t1zver4m7f");
             `,
           }}
         />
         <meta name="theme-color" content="#2Db400" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="auto answer" />
+        <meta name="apple-mobile-web-app-title" content="오토앤써" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#2Db400" />
         <meta name="msapplication-config" content="/browserconfig.xml" />

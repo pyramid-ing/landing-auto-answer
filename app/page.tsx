@@ -18,10 +18,10 @@ export default function Home() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'auto answer는 어떤 서비스인가요?',
+        name: '오토앤써는 어떤 서비스인가요?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'auto answer는 네이버 지식인에서 질문을 자동으로 감지하고 AI가 생성한 자연스러운 답변을 자동으로 등록하는 마케팅 자동화 솔루션입니다.'
+          text: '오토앤써는 네이버 지식인에서 질문을 자동으로 감지하고 AI가 생성한 자연스러운 답변을 자동으로 등록하는 마케팅 자동화 솔루션입니다.'
         }
       },
       {
@@ -46,7 +46,7 @@ export default function Home() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'auto answer',
+    name: '오토앤써',
     url: 'https://autoanswer.com',
     logo: 'https://autoanswer.com/logo.png',
     description: 'N사 지식 답변 마케팅 자동화 솔루션',
@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <Brain className="h-8 w-8 text-white" />
-              <span className="ml-2 text-xl font-bold">auto answer</span>
+              <span className="ml-2 text-xl font-bold">오토앤써</span>
             </div>
             <button
               onClick={handleSignUp}
@@ -541,7 +541,7 @@ export default function Home() {
             지식인 마케팅을 자동화하세요
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            auto answer로 24시간 자동 답변하여 마케팅 효과를 극대화하세요. 
+            오토앤써로 24시간 자동 답변하여 마케팅 효과를 극대화하세요.
             수동 답변 대비 10배 이상의 효율성을 경험해보세요.
           </p>
           <button
@@ -573,7 +573,7 @@ export default function Home() {
             <div>
               <div className="flex items-center mb-4">
                 <Brain className="h-6 w-6 text-[#2Db400]" />
-                <span className="ml-2 text-lg font-bold">auto answer</span>
+                <span className="ml-2 text-lg font-bold">오토앤써</span>
               </div>
               <p className="text-gray-400">
                 AI 기술로 구현된 지식인 자동 답변 프로그램으로 
@@ -608,7 +608,7 @@ export default function Home() {
           </div>
           
                       <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 auto answer. All rights reserved.</p>
+              <p>&copy; 2024 오토앤써. All rights reserved.</p>
             </div>
         </div>
       </footer>
