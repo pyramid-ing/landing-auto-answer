@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+Sitemap: https://auto-answer.fot.kr/sitemap.xml
+
+#DaumWebMasterTool:e565581da9f354b1a59e33127459a1e3bfa806bc7e3dbc7e6699b2ea5fadff4a:hAanBjeKjPXisHraBtijDw==
