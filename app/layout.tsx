@@ -6,7 +6,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '오토앤써 - N사 지식 답변 마케팅 자동화 솔루션',
+  title: '오토앤써 - 지식인 자동 답변 프로그램',
   description: '100% 자동 답변 시스템으로 24시간 마케팅을 자동화하세요. 네이버 지식인에서 AI가 생성한 자연스러운 답변을 자동으로 등록하여 마케팅 효과를 극대화합니다.',
   keywords: [
     'auto answer',
